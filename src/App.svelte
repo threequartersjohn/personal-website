@@ -1,9 +1,11 @@
 <script>
 	import Photo from './components/photo/photo.svelte';
 	import Content from './components/content/content.svelte';
+	import SEO from './components/seo/seo.svelte';
 </script>
 
 <main>
+		<!-- <SEO /> -->
 		<Photo />
 		<Content />	
 </main>
